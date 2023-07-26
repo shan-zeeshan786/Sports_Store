@@ -25,7 +25,7 @@ export default function Cart() {
 
     const cartProd = async () => {
         try {
-            const res = await fetch(`http://localhost:5000/CartProd`, {
+            const res = await fetch(`https://github.com/shan-zeeshan786/Sports_Store/CartProd`, {
                 method: "GET",
                 crossDomain: true,
                 headers: {
