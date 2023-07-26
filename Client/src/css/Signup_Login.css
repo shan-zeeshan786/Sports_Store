@@ -1,0 +1,36 @@
+.Loginbox {
+  height: 350px;
+  width: 500px;
+  border: 1px solid black;
+  margin-left: 24%;
+  margin-bottom: 50px;
+}
+.Loginpage {
+  height: 75px;
+  width: 500px;
+  background-color: blue;
+}
+.Signupbox {
+  height: 640px;
+  width: 500px;
+  border: 1px solid black;
+  margin-left: 35%;
+  margin-bottom: 50px;
+}
+.Signuppage {
+  height: 75px;
+  width: 500px;
+  background-color: blue;
+}
+.Loginheading {
+  color: white;
+  margin-top: 0;
+  text-align: center;
+  padding: 20px;
+}
+.Names {
+  padding-left: 26%;
+  text-align: left;
+  margin-top: 4%;
+  font-size: large;
+}
