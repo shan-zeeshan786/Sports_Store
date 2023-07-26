@@ -17,7 +17,7 @@ export default function Home() {
 
   const HomePage = async () => {
     try {
-      const res = await fetch('http://localhost:5000/Home', {
+      const res = await fetch('https://github.com/shan-zeeshan786/Sports_Store/Home', {
         method: "GET",
         crossDomain: true,
         headers: {
