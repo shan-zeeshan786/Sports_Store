@@ -18,7 +18,7 @@ export default function ViewProd() {
   }, [Products, User])
   const view = async () => {
     try {
-      const res = await fetch(`http://localhost:5000/viewprod/${id}`, {
+      const res = await fetch(`https://github.com/shan-zeeshan786/Sports_Store/viewprod/${id}`, {
         method: "GET",
         crossDomain: true,
         headers: {
