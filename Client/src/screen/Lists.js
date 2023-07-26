@@ -12,7 +12,7 @@ export default function List() {
 
   const productPage = async () => {
     try {
-      const res = await fetch('http://localhost:5000/list', {
+      const res = await fetch('https://github.com/shan-zeeshan786/Sports_Store/list', {
         method: "GET",
         crossDomain: true,
         headers: {
