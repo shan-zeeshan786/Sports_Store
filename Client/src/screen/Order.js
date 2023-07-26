@@ -20,7 +20,7 @@ export default function Order() {
 
     const OrderFunction = async () => {
         try {
-            const res = await fetch(`http://localhost:5000/Order`, {
+            const res = await fetch(`https://github.com/shan-zeeshan786/Sports_Store/Order`, {
                 method: "GET",
                 crossDomain: true,
                 headers: {
